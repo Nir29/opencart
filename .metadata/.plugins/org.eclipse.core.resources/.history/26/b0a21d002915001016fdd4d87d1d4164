@@ -1,0 +1,56 @@
+package pageObject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AccountRegistrationPage extends BasePage {
+	 public AccountRegistrationPage(WebDriver driver) {
+		 super(driver);
+	 }
+	
+	 @FindBy(xpath="//input[@id='input-firstname']")WebElement txtfirstname;
+	 @FindBy(xpath="//input[@id='input-lastname']")WebElement txtlastname;
+	 @FindBy(xpath="//input[@id='input-email']")WebElement txtemail;
+	 @FindBy(xpath="//input[@id='input-telephone']")WebElement txtPhn;
+	 @FindBy(xpath="//input[@id='input-password']")WebElement txtPassword;
+	 @FindBy(xpath="//input[@id='input-confirm']")WebElement confpassword;
+	 @FindBy(xpath="//input[@name='agree']")WebElement btnAgree;
+	 @FindBy(xpath="//input[@value='Continue']")WebElement btnContinue;
+	 @FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")WebElement confmsg;
+	 
+	 public void setFirstname(String fname) {
+		 txtfirstname.sendKeys(fname);
+	 }
+	 public void setLastname(String lname) {
+		 txtlastname.sendKeys(lname);
+	 }
+	 public void Setemail(String email) {
+		 txtemail.sendKeys(email);
+	 }
+	 public void SetPhoneno(String phno) {
+		 txtPhn.sendKeys(phno);
+	 }
+	 public void SetPassword(String pwd) {
+		 txtPassword.sendKeys(pwd);
+	 }
+	 public void ConfPassword(String pwd) {
+		 confpassword.sendKeys(pwd);
+	 }
+	 public void ClickbtnAgree() {
+		 btnAgree.click();
+		 
+	 }
+	 public void clickConbtn() {
+		 btnContinue.click();
+	 }
+	 public String getConfmsg() {
+		 try {
+		 return (confmsg.getText());
+		 }
+		 catch(Exception e) {
+			 return(e.getMessage());
+		 }
+	 }
+
+}

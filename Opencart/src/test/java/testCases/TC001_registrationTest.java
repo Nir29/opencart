@@ -1,0 +1,50 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameters;
+
+import pageObject.AccountRegistrationPage;
+import pageObject.HomePage;
+import testBase.BaseClass;
+
+public class TC001_registrationTest extends BaseClass {
+	
+
+   @Test(groups={"sanity","master"})
+    public void verifyregistration() {
+	   logger.info("starting Tc001 registarion test");
+	   try {
+	   
+	  
+    	logger.info("test case started-----");
+        HomePage hp=new HomePage(driver);
+        logger.info("-----click on my account");
+        
+        hp.clickMyAccount();
+        logger.info("------click on register----");
+        hp.clickRegister();
+         logger.info("-----account registration------");
+        AccountRegistrationPage acc=new AccountRegistrationPage(driver);
+        acc.setFirstname(randomeString().toUpperCase());
+        acc.setLastname(randomeString().toUpperCase());
+        acc.Setemail(randomeString()+"@gmail.com");
+        acc.SetPhoneno(randomeNumber());
+
+        String password=randomeAlphaNumeric();
+        acc.SetPassword(password);
+        acc.ConfPassword(password); 
+        acc.ClickbtnAgree();
+        acc.clickConbtn();
+        logger.info("------validation-------");
+        String msg=acc.getConfmsg();
+        Assert.assertEquals(msg, "Your Account Has Been Created!");
+	   }
+	   catch(Exception e) {
+		   logger.error("test failed");
+		   logger.debug("Debug logs");
+		   Assert.fail();
+	   }
+}
+}

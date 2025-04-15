@@ -1,0 +1,24 @@
+package javascriptexecutor;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaScriptExecutor {
+
+	public static void main(String[] args) {
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://testautomationpractice.blogspot.com/");
+		driver.manage().window().maximize();
+		//WebElement inputbox=driver.findElement(By.xpath("//input[@id='name']"));
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		//js.executeScript("arguments[0].setAttribute('value','jhon')",inputbox);
+    // WebElement btn =driver.findElement(By.id("female"));
+     
+    // js.executeScript("arguments[0].click()", btn);
+     js.executeScript("window.scrollby(0.1000)", " ");
+	}
+
+}

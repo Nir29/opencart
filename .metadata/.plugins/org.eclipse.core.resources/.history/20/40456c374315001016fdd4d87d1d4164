@@ -1,0 +1,36 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObject.AccountRegistrationPage;
+import pageObject.HomePage;
+
+public class TC001_registrationTest extends BaseClass {
+	
+
+   @Test
+    public void verifyregistration() {
+    	
+        HomePage hp=new HomePage(driver);
+        hp.clickMyAccount();
+        hp.clickRegister();
+
+        AccountRegistrationPage acc=new AccountRegistrationPage(driver);
+        acc.setFirstname(randomeString().toUpperCase());
+        acc.setLastname(randomeString().toUpperCase());
+        acc.Setemail(randomeString()+"@gmail.com");
+        acc.SetPhoneno(randomeNumber());
+
+        String password=randomeAlphaNumeric();
+        acc.SetPassword(password);
+        acc.ConfPassword(password);
+        acc.ClickbtnAgree();
+        acc.clickConbtn();
+
+        String confirmationMsg = acc.getConfmsg();
+        Assert.assertEquals(confirmationMsg,"Your Account Has Been Created!");
+    
+    
+    }
+}

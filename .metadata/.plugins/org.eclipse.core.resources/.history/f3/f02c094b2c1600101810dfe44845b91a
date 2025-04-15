@@ -1,0 +1,23 @@
+package javaforinterview;
+
+public class FinftheSecondLastNumber {
+
+	public static void main(String[] args) {
+		int a[]= {10,23,54,12,15,87,45};
+		
+		int minnum=minNum(a);
+		System.out.println(minnum);
+
+	}
+	
+	static int minNum(int a[]) {
+		int min=a[0];
+		for(int i=0;i<a.length;i++) {
+			if(a[0]>a[i]) {
+				min=a[i];
+			}
+		}
+		return min;
+	}
+
+}

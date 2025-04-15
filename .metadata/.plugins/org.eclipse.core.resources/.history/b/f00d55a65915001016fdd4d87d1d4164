@@ -1,0 +1,38 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObject.AccountRegistrationPage;
+import pageObject.HomePage;
+
+public class TC001_registrationTest extends BaseClass {
+	
+
+   @Test
+    public void verifyregistration() {
+	   logger.info("starting Tc001 registarion test");
+	   try {
+	   
+	   }
+	   catch(Exception e) {
+		   logger.error("test failed");
+		   logger.debug("Debug logs");
+		   Assert.fail();
+	   }
+    	
+        HomePage hp=new HomePage(driver);
+        hp.clickMyAccount();
+        hp.clickRegister();
+
+        AccountRegistrationPage acc=new AccountRegistrationPage(driver);
+        acc.setFirstname(randomeString().toUpperCase());
+        acc.setLastname(randomeString().toUpperCase());
+        acc.Setemail(randomeString()+"@gmail.com");
+        acc.SetPhoneno(randomeNumber());
+
+        String password=randomeAlphaNumeric();
+        acc.SetPassword(password);
+        acc.ConfPassword(password); 
+}
+}

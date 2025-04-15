@@ -1,0 +1,63 @@
+package testngmethods;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProvider {
+	WebDriver driver;
+	@BeforeClass
+	void setup() {
+		ChromeOptions option=new ChromeOptions();
+		option.addArguments("--start-maximized");
+		driver=new ChromeDriver(option);
+		
+	
+	}
+	@Test(dataProvider="dp")
+	void testLogin(String email,String pwd) {
+		driver.get("https://tutorialsninja.com/demo/");
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+				
+	
+		driver.findElement(By.xpath("//a[@title='My Account']")).click();
+		driver.findElement(By.xpath("//a[text()='Login']")).click();
+	
+		driver.findElement(By.id("input-email")).sendKeys(email);
+		driver.findElement(By.id("input-password")).sendKeys(pwd);
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		
+		boolean msg=driver.findElement(By.id("content")).isDisplayed();
+		Assert.assertTrue(msg);
+	
+	}	
+	
+	void teardown() {
+		driver.quit();
+	}
+	
+		
+		
+		
+			
+	@DataProvider(name="dp")
+	Object[][] logindata(){
+		Object data[][]= {
+				{ "abc@gmail.com","test123"},
+				{"kamalakanta@gmail.com","kamala111"},
+				{"nirmalkumar@gmail.com","nirmal111"},
+				
+		};
+		return data;
+	}
+	
+
+}

@@ -1,0 +1,31 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObject.HomePage;
+import pageObject.LoginPage;
+import pageObject.MyAccount;
+import testBase.BaseClass;
+
+public class Tc002_loginTest extends BaseClass {
+	@Test(groups= {"regression","master"})
+	public void testLogin() {
+		HomePage hp=new HomePage(driver);
+		hp.clickMyAccount();
+		hp.clickLogin();
+		
+		
+		LoginPage lp=new LoginPage(driver);
+		lp.inputEmail("kamalakanta@gmail.com");
+		lp.InputPassword("kamala111");
+		lp.clickLogin();
+		
+		
+		MyAccount mc=new MyAccount(driver);
+		boolean txt=mc.isMyAccountPageExists();
+		
+		Assert.assertTrue(txt);
+	}
+
+}

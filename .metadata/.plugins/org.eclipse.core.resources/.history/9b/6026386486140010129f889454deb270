@@ -1,0 +1,32 @@
+package datadriventest;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DDTtest {
+
+	public static void main(String[] args) throws IOException {
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://tutorialsninja.com/demo/");
+		driver.findElement(By.xpath("//a[@title='My Account']")).click();
+		driver.findElement(By.xpath("//a[text()='Login']")).click();
+		
+		
+		String fpath=System.getProperty("user.dir")+"//testdata//OpenCartLoginData.xlsx";
+		int row=UtilExcel.getRowCount(fpath, "sheet1");
+		for(int i=1;i<=row;i++) {
+			String email=UtilExcel.getCellData(fpath," sheet1", i, 0);
+			String pwd=UtilExcel.getCellData(fpath, "sheet1", i, 1);
+			
+		driver.findElement(By.id("input-email")).sendKeys(email);
+		driver.findElement(By.id("input-password")).sendKeys(pwd);
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		}
+		boolean msg=driver.findElement(By.id("content")).isDisplayed();
+	
+	}
+}

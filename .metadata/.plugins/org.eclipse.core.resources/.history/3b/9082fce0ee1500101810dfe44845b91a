@@ -1,0 +1,29 @@
+package testngmethods;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProvider {
+	@Test(dataProvider="dp")
+	void testLogin(String email,String pwd) {
+		
+	}
+	
+	
+	
+	
+	
+	
+	@DataProvider(name="dp")
+	Object[][]loginData(){
+		Object data[][]= {
+				{ "abc@gmail.com,test123"},
+				{"kamalakanta@gmail.com,kamala111"},
+				{"nirmalkumar@gmail.com,nirmal111"},
+				
+		};
+		return data;
+	}
+	
+
+}

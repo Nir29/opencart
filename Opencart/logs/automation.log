@@ -1,0 +1,102 @@
+21:32:10.251 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:14)oggger - starting Tc001 registarion test
+21:32:10.261 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:18)oggger - test case started-----
+21:32:10.332 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:20)oggger - -----click on my account
+21:32:11.285 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - ------click on register----
+21:32:11.844 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:25)oggger - -----account registration------
+21:32:13.589 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:37)oggger - ------validation-------
+21:52:49.987 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:15)oggger - starting Tc001 registarion test
+21:52:49.999 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:19)oggger - test case started-----
+21:52:50.059 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - -----click on my account
+21:52:50.979 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:24)oggger - ------click on register----
+21:52:51.496 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - -----account registration------
+21:52:53.096 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:38)oggger - ------validation-------
+22:04:38.688 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+22:04:38.700 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+22:04:38.764 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+22:04:39.836 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+22:04:40.504 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+22:04:42.476 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+22:05:27.705 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+22:05:27.716 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+22:05:27.768 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+22:05:28.847 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+22:05:29.508 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+22:05:31.579 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+22:17:44.694 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+22:17:44.705 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+22:17:44.778 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+22:17:45.832 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+22:17:46.537 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+22:17:48.374 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+22:18:57.688 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+22:18:57.701 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+22:18:57.765 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+22:18:58.546 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+22:18:59.068 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+22:19:00.804 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+22:19:09.774 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+22:19:09.775 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+22:19:09.776 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+22:19:10.863 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+22:19:11.453 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+22:19:13.617 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+22:20:46.153 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+22:20:46.164 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+22:20:46.395 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+22:20:47.015 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+22:20:47.327 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+22:20:47.328 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+22:20:47.330 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+22:20:48.235 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+22:20:48.531 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+22:20:49.201 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+22:20:51.587 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+22:20:51.589 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+09:39:45.128 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+09:39:45.142 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+09:39:45.212 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+09:39:46.205 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+09:39:46.785 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+09:39:48.589 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+09:41:27.080 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+09:41:27.092 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+09:41:27.146 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+09:41:28.197 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+09:41:28.810 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+09:41:30.807 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+10:27:30.092 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+10:27:30.100 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+10:27:30.157 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+10:27:31.004 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+10:27:31.560 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+10:27:33.303 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+10:27:42.620 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+10:27:42.621 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+10:27:42.626 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+10:27:43.844 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+10:27:44.443 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+10:27:46.141 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+10:31:19.131 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+10:31:19.140 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+10:31:19.201 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+10:31:20.269 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+10:31:20.810 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+10:31:22.483 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+11:30:18.229 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+11:30:18.239 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+11:30:18.315 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+11:30:19.301 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+11:30:19.861 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+11:30:21.617 [main] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+17:13:15.696 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+17:13:15.720 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+17:13:15.778 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+17:13:15.786 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:17)oggger - starting Tc001 registarion test
+17:13:15.787 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:21)oggger - test case started-----
+17:13:15.788 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:23)oggger - -----click on my account
+17:13:16.243 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+17:13:16.404 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:26)oggger - ------click on register----
+17:13:17.238 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+17:13:17.242 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:28)oggger - -----account registration------
+17:13:20.732 [TestNG-tests-2] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------
+17:13:20.806 [TestNG-tests-1] INFO  testCases.TC001_registrationTest.verifyregistration(TC001_registrationTest.java:40)oggger - ------validation-------

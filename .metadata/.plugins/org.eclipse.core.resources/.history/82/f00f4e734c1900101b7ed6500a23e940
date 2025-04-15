@@ -1,0 +1,16 @@
+package flipkart;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class FlipkartLogin {
+	WebDriver driver;
+	void setup() {
+		ChromeOptions options=new ChromeOptions();
+		options.addArguments("--start-maximized");
+		driver=new ChromeDriver(options);)
+		
+	}
+
+}
