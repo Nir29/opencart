@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngmethods.dataProvider">
+      <class name="testNG.DataProviderDemo">
         <methods>
-          <include name="testLogin" invocation-numbers="0 2"/>
-          <include name="setup"/>
+          <include name="test_login"/>
         </methods>
-      </class> <!-- testngmethods.dataProvider -->
+      </class> <!-- testNG.DataProviderDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

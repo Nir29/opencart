@@ -14,7 +14,7 @@ public class CheckBrokenLinks {
 
 	public static void main(String[] args) throws IOException {
 		WebDriver driver=new ChromeDriver();
-		driver.get("http://www.deadlinkcity.com/");
+		driver.get(" http://www.deadlinkcity.com/");
 		driver.manage().window().maximize();
 		List<WebElement> links=driver.findElements(By.tagName("a"));
 		//System.out.println(links.size());
