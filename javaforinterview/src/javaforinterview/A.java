@@ -2,7 +2,7 @@ package javaforinterview;
 
 public class A {
 
-	public static void main(String[] args) {
+	public static void main(StringDemo[] args) {
 		int[] arr = {5, 1, 2, 8, 9, 3};
 		int max = 1000, secondMax = 1000;
 
